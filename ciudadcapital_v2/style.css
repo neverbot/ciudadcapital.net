@@ -33,6 +33,9 @@ a:hover, a:active {
   text-decoration: none; 
 }
 
+pre {
+  white-space: pre-wrap;
+}
 
 .header-menu {
   width: 100%;
@@ -89,8 +92,49 @@ a:hover, a:active {
 .header-dropdown-menu {
   visibility: hidden;
   display: none;
+
+  margin-top: 50px;
+  z-index: 1000000; 
+  width: 100%; 
+  background-color: rgb(0, 0, 0);
+  position: absolute; 
+  text-align: center; 
+  font: normal 1.2em/1 "Average Sans";
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+
+}
+.header-dropdown-menu ul {
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none; 
+  list-style-image: none;
+}
+.header-dropdown-menu li {
+  display: block;
+  padding: 15px 0 15px 0; 
+  border-bottom: rgb(255, 255, 255) 1px solid;
 }
 
+.header-dropdown-menu li:hover{
+  background-color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0);
+}
+.header-dropdown-menu ul li a { 
+  text-decoration:none;
+  margin: 0px; 
+  color: rgb(255, 255, 255);
+}
+.header-dropdown-menu ul li a:hover { text-decoration:none;}
+.header-dropdown-menu a {
+  text-decoration:none; 
+  color: rgb(255, 255, 255);
+}
+.header-dropdown-menu a:hover {
+  text-decoration:none; 
+  color: rgb(255, 255, 255);
+}
 .header-title {
   width: 100%;
   height: 200px;
@@ -224,51 +268,4 @@ textarea {
   ul {
     padding-left: 20px;
   }
-}
-
-
-
-
-.header-dropdown-menu {
-  margin-top: 50px;
-  z-index: 1000000; 
-  width: 100%; 
-  background-color: rgb(0, 0, 0);
-  position: absolute; 
-  text-align: center; 
-  font: normal 1.2em/1 "Average Sans";
-  text-align: center;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
-
-}
-.header-dropdown-menu ul {
-  margin: 0; 
-  padding: 0; 
-  list-style-type: none; 
-  list-style-image: none;
-}
-.header-dropdown-menu li {
-  display: block;
-  padding: 15px 0 15px 0; 
-  border-bottom: rgb(255, 255, 255) 1px solid;
-}
-
-.header-dropdown-menu li:hover{
-  background-color: rgb(255, 255, 255); 
-  color: rgb(0, 0, 0);
-}
-.header-dropdown-menu ul li a { 
-  text-decoration:none;
-  margin: 0px; 
-  color: rgb(255, 255, 255);
-}
-.header-dropdown-menu ul li a:hover { text-decoration:none;}
-.header-dropdown-menu a {
-  text-decoration:none; 
-  color: rgb(255, 255, 255);
-}
-.header-dropdown-menu a:hover {
-  text-decoration:none; 
-  color: rgb(255, 255, 255);
 }
