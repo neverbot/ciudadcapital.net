@@ -28,10 +28,40 @@
       <a href="" class="header-option">Foro</a>
       <a href="" class="header-option">Asociaci&oacute;n</a>
     </div>
+
+    <div class="header-dropdown">
+      <div class="header-button" onclick="toggleMenu();">☰</div>
+      <div class="header-dropdown-menu" id="header-dropdown-menu">
+      <ul>
+        <a href="<?php echo get_option('home'); ?>/"><li>Blog</li></a>
+        <a href="http://twitter.com/ccmud"><li>Twitter</li></a>
+        <a href="http://blog.ciudadcapital.net/archivo/mapa-de-ciudad-capital/"><li>Mapa</li></a>
+        <a href=""><li>Gu&iacute;a</li></a>
+        <a href="http://blog.ciudadcapital.net/jugar/"><li>Jugar</li></a>
+        <a href=""><li>Foro</li></a>
+        <a href=""><li>Asociaci&oacute;n</li></a>
+      </ul>
+      </div>
+      <script type="text/javascript">
+        function toggleMenu() {
+          var elem = document.getElementById("header-dropdown-menu");
+
+          console.log(elem.style.visibility);
+          if (elem.style.visibility === 'visible') {
+            elem.style.visibility = 'hidden';
+            elem.style.display = 'none';
+          }
+          else {
+            elem.style.visibility = 'visible';
+            elem.style.display = 'block';
+          }
+        }
+      </script>
+    </div>
   </div>
   
   <div class="header-logo">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/ciudadcapital_logo.png" alt="Ciudad Capital"/>
+    <a href="<?php echo get_option('home'); ?>/"><img src="<?php echo get_template_directory_uri(); ?>/images/ciudadcapital_logo.png" alt="Ciudad Capital"/></a>
   </div>
 
   <!-- start page -->

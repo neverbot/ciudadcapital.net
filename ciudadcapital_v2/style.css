@@ -17,8 +17,7 @@ p {
 }
 
 ul {
-	padding: 20px 0 0 0;
-	padding-left: 45px;
+	padding: 20px 0 0 45px;
 	margin: 0;
 }
 
@@ -66,6 +65,30 @@ a:hover, a:active {
 .header-option:active {
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+.header-dropdown {
+  visibility: hidden;
+  display: none;
+  position: relative;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.header-button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  font: normal 1.2em/1 "Average Sans";
+  color: rgb(255, 255, 255);
+  float: right;
+  border-radius: 4px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.header-dropdown-menu {
+  visibility: hidden;
+  display: none;
 }
 
 .header-title {
@@ -171,4 +194,81 @@ h2 a:active {
 
 textarea {
 	width: 100%;
+}
+
+@media only screen and (max-width: 1000px)
+{
+  .header-options {
+    visibility: hidden;
+    display: none;
+  }
+
+  .header-dropdown {
+    visibility: visible;
+    display: block;
+  }
+
+  .header-logo img {
+    width: 60%;
+    height: 60%;
+  }
+  h2.post-title { 
+    font: 700 1.7em/1.1 Lora; 
+    margin: 0;
+  }
+
+  .post { width: 90%; }
+  .post-content { font: 400 1.2em/1.5 Lora; }
+  .post-subtitle { font: 400 1em/1.5 Lora; }
+
+  ul {
+    padding-left: 20px;
+  }
+}
+
+
+
+
+.header-dropdown-menu {
+  margin-top: 50px;
+  z-index: 1000000; 
+  width: 100%; 
+  background-color: rgb(0, 0, 0);
+  position: absolute; 
+  text-align: center; 
+  font: normal 1.2em/1 "Average Sans";
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+
+}
+.header-dropdown-menu ul {
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none; 
+  list-style-image: none;
+}
+.header-dropdown-menu li {
+  display: block;
+  padding: 15px 0 15px 0; 
+  border-bottom: rgb(255, 255, 255) 1px solid;
+}
+
+.header-dropdown-menu li:hover{
+  background-color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0);
+}
+.header-dropdown-menu ul li a { 
+  text-decoration:none;
+  margin: 0px; 
+  color: rgb(255, 255, 255);
+}
+.header-dropdown-menu ul li a:hover { text-decoration:none;}
+.header-dropdown-menu a {
+  text-decoration:none; 
+  color: rgb(255, 255, 255);
+}
+.header-dropdown-menu a:hover {
+  text-decoration:none; 
+  color: rgb(255, 255, 255);
 }
