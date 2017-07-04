@@ -30,8 +30,8 @@
     </div>
   </div>
   
-  <div class="header-title">
-    <h1 class="title"><a href="<?php echo get_option('home'); ?>/">Ciudad Capital</a></h1>
+  <div class="header-logo">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/ciudadcapital_logo.png" alt="Ciudad Capital"/>
   </div>
 
   <!-- start page -->
