@@ -74,6 +74,16 @@ a:hover, a:active {
   margin: 50px auto 0;
 }
 
+.header-logo {
+  margin: 0 auto 25px;
+}
+.header-logo img {
+  width: 497px;
+  height: 373px;
+  display: block;
+  margin: 0 auto;
+}
+
 h1 {
   margin: 0 auto;
   font: normal 7em/1 FFFTusj;
