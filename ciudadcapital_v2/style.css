@@ -25,12 +25,12 @@ li {
   padding: 0 0 10px 0;
 }
 
-a:link, a:visited { 
-  text-decoration: underline; 
+a:link, a:visited {
+  text-decoration: underline;
   color: rgb(34, 34, 34);
 }
-a:hover, a:active { 
-  text-decoration: none; 
+a:hover, a:active {
+  text-decoration: none;
 }
 
 pre {
@@ -53,7 +53,7 @@ pre {
 .header-option {
   float: left;
   /*width: 120px;  */
-  width: 14%;
+  width: 20%;
   margin-top: 15px;
   font: normal 1.2em/1 "Average Sans";
   text-align: center;
@@ -62,9 +62,9 @@ pre {
 }
 
 .header-option,
-.header-option:link, 
-.header-option:visited, 
-.header-option:hover, 
+.header-option:link,
+.header-option:visited,
+.header-option:hover,
 .header-option:active {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -94,11 +94,11 @@ pre {
   display: none;
 
   margin-top: 50px;
-  z-index: 1000000; 
-  width: 100%; 
+  z-index: 1000000;
+  width: 100%;
   background-color: rgb(0, 0, 0);
-  position: absolute; 
-  text-align: center; 
+  position: absolute;
+  text-align: center;
   font: normal 1.2em/1 "Average Sans";
   text-align: center;
   text-transform: uppercase;
@@ -106,33 +106,33 @@ pre {
 
 }
 .header-dropdown-menu ul {
-  margin: 0; 
-  padding: 0; 
-  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   list-style-image: none;
 }
 .header-dropdown-menu li {
   display: block;
-  padding: 15px 0 15px 0; 
+  padding: 15px 0 15px 0;
   border-bottom: rgb(255, 255, 255) 1px solid;
 }
 
 .header-dropdown-menu li:hover{
-  background-color: rgb(255, 255, 255); 
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
-.header-dropdown-menu ul li a { 
+.header-dropdown-menu ul li a {
   text-decoration:none;
-  margin: 0px; 
+  margin: 0px;
   color: rgb(255, 255, 255);
 }
 .header-dropdown-menu ul li a:hover { text-decoration:none;}
 .header-dropdown-menu a {
-  text-decoration:none; 
+  text-decoration:none;
   color: rgb(255, 255, 255);
 }
 .header-dropdown-menu a:hover {
-  text-decoration:none; 
+  text-decoration:none;
   color: rgb(255, 255, 255);
 }
 .header-title {
@@ -159,9 +159,9 @@ h1 {
   color: rgb(37, 37, 37);
 }
 h1 a,
-h1 a:link, 
-h1 a:visited, 
-h1 a:hover, 
+h1 a:link,
+h1 a:visited,
+h1 a:hover,
 h1 a:active {
   text-decoration: none;
   color: rgb(37, 37, 37);
@@ -174,9 +174,9 @@ h2 {
   font: 700 3em/1.1 Lora;
 }
 h2 a,
-h2 a:link, 
-h2 a:visited, 
-h2 a:hover, 
+h2 a:link,
+h2 a:visited,
+h2 a:hover,
 h2 a:active {
   text-decoration: none;
   color: rgb(22, 22, 22);
@@ -208,7 +208,7 @@ h2 a:active {
 
 .post-title {
   max-width: 1000px;
-	margin: 0 0 20px 0;  
+	margin: 0 0 20px 0;
 }
 
 .navigation {
@@ -256,8 +256,8 @@ textarea {
     width: 60%;
     height: 60%;
   }
-  h2.post-title { 
-    font: 700 1.7em/1.1 Lora; 
+  h2.post-title {
+    font: 700 1.7em/1.1 Lora;
     margin: 0;
   }
 

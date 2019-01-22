@@ -24,10 +24,10 @@
       <a href="<?php echo get_option('home'); ?>/" class="header-option">Blog</a>
       <a href="http://twitter.com/ccmud" class="header-option">Twitter</a>
       <a href="http://blog.ciudadcapital.net/archivo/mapa-de-ciudad-capital/" class="header-option">Mapa</a>
-      <a href="" class="header-option">Gu&iacute;a</a>
+      <!-- <a href="" class="header-option">Gu&iacute;a</a> -->
       <a href="http://blog.ciudadcapital.net/jugar/" class="header-option">Jugar</a>
-      <a href="" class="header-option">Foro</a>
-      <a href="" class="header-option">Asociaci&oacute;n</a>
+      <!-- <a href="" class="header-option">Foro</a> -->
+      <a href="http://maldorne.org" target="_blank" class="header-option">Asociaci&oacute;n</a>
     </div>
 
     <div class="header-dropdown">
@@ -37,10 +37,10 @@
         <a href="<?php echo get_option('home'); ?>/"><li>Blog</li></a>
         <a href="http://twitter.com/ccmud"><li>Twitter</li></a>
         <a href="http://blog.ciudadcapital.net/archivo/mapa-de-ciudad-capital/"><li>Mapa</li></a>
-        <a href=""><li>Gu&iacute;a</li></a>
+        <!-- <a href=""><li>Gu&iacute;a</li></a> -->
         <a href="http://blog.ciudadcapital.net/jugar/"><li>Jugar</li></a>
-        <a href=""><li>Foro</li></a>
-        <a href=""><li>Asociaci&oacute;n</li></a>
+        <!-- <a href=""><li>Foro</li></a> -->
+        <a href="http://maldorne.org" target="_blank"><li>Asociaci&oacute;n</li></a>
       </ul>
       </div>
       <script type="text/javascript">
@@ -60,7 +60,7 @@
       </script>
     </div>
   </div>
-  
+
   <div class="header-logo">
     <a href="<?php echo get_option('home'); ?>/"><img src="<?php echo get_template_directory_uri(); ?>/images/ciudadcapital_logo.png" alt="Ciudad Capital"/></a>
   </div>
